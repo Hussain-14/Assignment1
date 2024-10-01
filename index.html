@@ -10,31 +10,162 @@
 
     <main class = "container">
         <!-- We create the header for our web page including the navigation of
-         different elements and the welcome message for the visitor -->
+         different elements -->
         <header>
             <nav>
                 <ul class = "Page-Navigation">
-                    <li> <a href="#">Weekly schedule</a> </li>
-                    <li><a href="#"> Photo Gallery </a> </li>
-                    <li><a href="#"> Announcements </a></li>
-                    <li><a href="#"> Paren resources </a></li>
-                    <li><a href="#">About the teacher </a></li>
+                    <li> <a href="#Schedule">Weekly schedule</a> </li>
+                    <li><a href="#Gallery"> Photo Gallery </a> </li>
+                    <li><a href="#Resources"> Parent resources and announcements </a></li>
+                    <li><a href="#Teacher">About the teacher </a></li>
 
                 </ul>
 
                 <ul class = "Website-Navigation">
-                    <li><a href="#">Home Page </a></li>
-                    <li><a href="#"> About us </a></li>
+                    <li><a href="#welcome">Home Page </a></li>
+                    <li><a href="#Contact"> About us </a></li>
                 </ul>
 
             </nav>
 
-            <h1>Welcome to Sunshine Kindergarten website</h1>
+            <!-- Welcoming the visitors of our website -->
+            <h1 id="welcome">Welcome to Sunshine Kindergarten website</h1>
         </header>
 
         <section>
             
+            <!-- Listing the weekly schedule for the class by creating table head and rows -->
+            <h1 id="Schedule">Weekly Schedule:</h1>
+            <table class = "Schedule">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00 AM - 9:00 AM</td>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>Math</td>
+                        <td>History</td>
+                        <td>Physical Education</td>
+                    </tr>
+                        <td>9:00 AM - 9:30 AM</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                        <td>Break</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 AM - 10:00 AM</td>
+                        <td>English</td>
+                        <td>Math</td>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Art</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM - 11:00 AM</td>
+                        <td>History</td>
+                        <td>Physical Education</td>
+                        <td>Art</td>
+                        <td>Science</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM - 12:00 PM</td>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>History</td>
+                        <td>Math</td>
+                        <td>History</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
         </section>
+        
+            <!-- Photo Gallery Section for the activities we host-->
+        <section class = "Photo-Gallery">
+            <h1 id="Gallery">Photo gallery of class activities </h1>
+            <div class = "Gallery">
+                <img src="https://placehold.co/350x250" alt="Class Activity 1">
+                <img src="https://placehold.co/350x250" alt="Class Activity 2">
+                <img src="https://placehold.co/350x250" alt="Class Activity 3">
+                <img src="https://placehold.co/350x250" alt="Class Activity 4">
+            </div>
+
+        </section>
+
+        <!-- Parent resources and announcements to provide parents with useful resources for their children education and announcements for the upcoming activities -->
+        <section class = "Parent-Resources">
+            <h1 id="Resources">Parent Resources and Announcements:</h1>
+            <div class="resources-announcements">
+                <p>Here are some useful resources for parents to help support your child’s education:</p>
+                <ul>
+                    <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> - Free online courses and practice resources.</li>
+                    <li><a href="https://www.readingrockets.org" target="_blank">Reading Rockets</a> - Strategies for helping your child learn to read.</li>
+                    <li><a href="https://www.commonsensemedia.org" target="_blank">Common Sense Media</a> - Reviews of educational apps and media for children.</li>
+                    <li><a href="https://www.ed.gov/parents" target="_blank">U.S. Department of Education - Parent Resources</a> - A guide for parents on how to engage with their child's education.</li>
+                </ul>
+                <p>Stay updated with the latest news and upcoming events:</p>
+                <ul>
+                    <li><strong>October 5:</strong> Parent-Teacher Conferences from 4 PM to 7 PM. Please sign up for a time slot.</li>
+                    <li><strong>October 12:</strong> School Fall Festival at 6 PM. Join us for games, food, and fun!</li>
+                    <li><strong>October 20:</strong> Picture Day. Please ensure your child is dressed appropriately.</li>
+                    <li><strong>October 30:</strong> Halloween Parade. Students are encouraged to wear costumes!</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About the Teacher Section -->
+        <section class = "Teacher-Information">
+            
+            <h2 id="Teacher">Meet Mr. Hussain</h2>
+        <p><strong>Position:</strong> 5th Grade Mathematics Teacher</p>
+        <p><strong>Qualifications:</strong> B.A. in Mathematics, M.Ed. in Curriculum and Instruction</p>
+        <p><strong>Teaching Philosophy:</strong> Mr. Hussain believes in fostering a love for learning through engaging and hands-on activities. He aims to create a positive classroom environment where students feel safe to express themselves and explore new ideas.</p>
+
+        </section>
+
+        <!-- Footer of the page -->
+        <footer>
+            <div class="footer-container">
+              <!-- School Contact Information -->
+              <div class="footer-section contact-info">
+                <h3 id="Contact">Contact Us</h3>
+                <p>Sunshine Kindergarten</p>
+                <p>1234 Happy Street, Education City, XYZ</p>
+                <p>Email: <a href="mailto:info@sunshinekindergarten.com">info@sunshinekindergarten.com</a></p>
+                <p>Phone: +123-456-7890</p>
+              </div>
+          
+            
+          
+              <!-- Social Media Links -->
+              <div class="footer-section social-media">
+                <h3>Follow us</h3>
+                <a href="https://facebook.com/sunshinekindergarten" target="_blank">Facebook</a>
+                <a href="https://twitter.com/sunshinekindergarten" target="_blank">Twitter</a>
+                <a href="https://instagram.com/sunshinekindergarten" target="_blank">Instagram</a>
+              </div>
+            </div>
+          
+            <!-- Copyright Section -->
+            <div class="footer-bottom">
+              <p>&copy; 2024 Sunshine Kindergarten. All Rights Reserved.</p>
+            </div>
+          </footer>
+        
+        
 
     </main>
     
