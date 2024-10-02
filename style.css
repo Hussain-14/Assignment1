@@ -1,13 +1,111 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color : black;
+    font-size: 30px auto;
+    background-color: #fff9e6; /* Soft Pastel Yellow */
+    margin: 0;
+    padding: 0;
+}
 #welcome{
     background-color: #f0f9ff; /* Soft light blue */
-    color: #34495e; /* Muted dark blue */
+    color: #ff6f61; 
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive; 
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     text-align: center;
     max-width: 800px;
-    margin: 2rem auto;
-    font-family: 'Arial', sans-serif;
+    margin: 1rem auto;
 
 }
 
+  
+ /* Colorful Hover Effects */
+.Page-Navigation a:hover {
+    background-color: #ff6f61; /* Coral color for hover */
+    color: #fff; /* White text when hovered */
+  }
+  
+  /* Additional Hover Effects with Gradient Colors for Each Link */
+  .Page-Navigation li:nth-child(1) a:hover {
+    background-color: #f39c12; /* Orange */
+  }
+  
+  .Page-Navigation li:nth-child(2) a:hover {
+    background-color: #3498db; /* Blue */
+  }
+  
+  .Page-Navigation li:nth-child(3) a:hover {
+    background-color: #e74c3c; /* Red */
+  }
+  
+  .Page-Navigation li:nth-child(4) a:hover {
+    background-color: #2ecc71; /* Green */
+  }
+  
+  .Page-Navigation li:nth-child(5) a:hover {
+    background-color: #9b59b6; /* Purple */
+  }
+  nav a{
+    text-decoration:solid;
+    text-decoration-line: none;
+  }
+/* Navigation Links */
+.Page-Navigation {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Page-Navigation li {
+    margin-left: 2rem;
+  }
+  
+  .Page-Navigation a {
+    color: #34495e; /* Muted blue for contrast and readability */
+    text-decoration: none;
+    font-size: 1.0rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 8px;
+    text-transform: capitalize;
+  }
+  .nav-bar {
+    background-color: #ffe4b5; /* Light peach for a warm feel */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-bottom: 4px solid #ffcc80; /* Orange border for playfulness */
+  }
+
+  .logo h2 {
+    color: #ff6f61; 
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', cursive; 
+  }
+
+  .Website-Navigation{
+    font-size: 0.7rem;
+    margin-left: 30px;
+  }
+
+  .Website-Navigation a{
+    color:#e74c3c;
+    text-transform: capitalize;
+    
+  }
+
+  .Website-Navigation a:hover{
+    background-color: wheat;
+  }
+
+  /* Responsive Design for Mobile Devices */
+  @media (max-width: 768px) {
+    .nav-bar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+}
