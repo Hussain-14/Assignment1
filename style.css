@@ -298,13 +298,13 @@ img{
 
 }
 
-.resources-announcements{
- background-color: #ff6f61;
- padding: 2rem;
- border-radius: 10px;
-}
+
 
 .resources-announcements ul , ol{
+  background-color: #ff6f61;
+  padding-left: 30px;
+  padding: 2rem;
+  border-radius: 10px;
   color:white;
 }
 
@@ -313,6 +313,8 @@ img{
   color: #f2f2f2;
   font-size: 1.3rem;
 }
+
+
 
 .resources-announcements a{
     color: #34495e; /* Muted blue for contrast and readability */
@@ -338,6 +340,7 @@ img{
 
 .resources-announcements ol a:hover{
   background-color: #f39c12;
+  color: #f2f2f2;
   border-radius: 12px;
 }
 
