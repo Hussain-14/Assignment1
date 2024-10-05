@@ -426,18 +426,29 @@ img{
   color: #34495e; 
   margin-left: 0.5rem; /* Space between links */
   display: flex;
-
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  padding: 1.0rem 1rem;
+  padding: 1rem 1.5rem;
   text-transform: capitalize;
   border-radius: 8px;
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 
-.footer-section-social-media a:hover {
-  background-color: #f39c12;
+.footer-section-social-media a[href*="facebook"]:hover {
+  background-color: #2d4373; /* Facebook darker blue for hover */
+  color: #fff; /* White text on hover */
+}
+
+
+.footer-section-social-media a[href*="twitter"]:hover {
+  background-color: #0d95e8; /* Slightly darker blue for hover */
+  color: #fff; /* White text on hover */
+}
+
+
+.footer-section-social-media a[href*="instagram"]:hover {
+  background-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
   color: #fff; /* White text on hover */
 }
 
