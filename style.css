@@ -440,51 +440,57 @@ color: #ff6f61; /* Change color on hover for emphasis */
 
 /* Social Media Links */
 .footer-section-social-media {
-max-width: 40%; /* Adjust width to balance with contact info */
-text-align: right; /* Align text to the right */
+  max-width: 40%; /* Adjust width to balance with contact info */
+  text-align: right; /* Align text to the right */
 }
 
 .footer-section-social-media h3 {
-font-size: 1.6rem;
-color: #ff6f61;
-font-weight: bold;
-margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: #ff6f61;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
-/* Adjust the hyperlinks in the footer section (social media links) */
 .footer-section-social-media a {
-color: #34495e; 
-margin-left: 0.5rem; /* Space between links */
-display: flex;
+  color: #34495e; 
+  margin-left: 0.5rem; /* Space between links */
+  display: flex;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  text-transform: capitalize;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
 
-text-decoration: none;
-font-size: 1rem;
-font-weight: bold;
-padding: 1.0rem 1rem;
-text-transform: capitalize;
-border-radius: 8px;
-transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+.footer-section-social-media a[href*="facebook"]:hover {
+  background-color: #2d4373; /* Facebook darker blue for hover */
+  color: #fff; /* White text on hover */
 }
 
 
-/* The color hover effect fot the social media sections */
-.footer-section-social-media a:hover {
-background-color: #f39c12;
-color: #fff; /* White text on hover */
+.footer-section-social-media a[href*="twitter"]:hover {
+  background-color: #0d95e8; /* Slightly darker blue for hover */
+  color: #fff; /* White text on hover */
+}
+
+
+.footer-section-social-media a[href*="instagram"]:hover {
+  background-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #fff; /* White text on hover */
 }
 
 /* Footer bottom section */
 .footer-bottom {
-margin-top: 2rem;
-padding-top: 1rem;
-border-top: 2px solid #ffcc80; /* Top border for separation */
-text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #ffcc80; /* Top border for separation */
+  text-align: center;
 }
 
-/*  */
 .footer-bottom p {
-font-size: 1rem;
-color: #34495e;
-margin: 0;
+  font-size: 1rem;
+  color: #34495e;
+  margin: 0;
 }
-
