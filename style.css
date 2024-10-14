@@ -209,7 +209,7 @@ border: 2px solid #ffcc80;
 }
 
 
-/* Responsive design */
+/* Responsive design for mobile */
 @media (max-width: 768px) {
 .Schedule thead {
   display: none;
@@ -244,7 +244,7 @@ border: 2px solid #ffcc80;
 .Schedule td::before {
   content: attr(data-label);
   font-weight: bold;
-  width: 120px;
+  min-width: 150px;
   text-align: left;
 }
 
@@ -263,7 +263,7 @@ border: 2px solid #ffcc80;
 }
 }
 
-/* Mobile size adjustments */
+/* Smaller window adjustments */
 @media (max-width: 480px) {
 .Schedule td {
   font-size: 14px;
